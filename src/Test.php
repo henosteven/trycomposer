@@ -5,7 +5,7 @@ Class Test {
         echo 'hello henosteven';
     }
 
-    public function hi {
+    public function hi() {
         echo 'hi henosteven';
     }
 }
