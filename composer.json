@@ -15,6 +15,7 @@
     },
     "autoload": {
                 "psr-4": {"Testcomposer\\Foo\\": "src/"}
+                "psr-4": {"Haha\\TryTest\\": "src/"}
             }
 }
 
