@@ -14,8 +14,10 @@
         "monolog/monolog": "1.2.*"
     },
     "autoload": {
-                "psr-4": {"Testcomposer\\Foo\\": "src/"}
-                "psr-4": {"Haha\\TryTest\\": "src/"}
-            }
+                "psr-4": {
+                    "Testcomposer\\Foo\\": "src/",
+                    "Haha\\TryTest\\": "src/"
+                    }
+    }
 }
 
