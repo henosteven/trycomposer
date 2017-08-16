@@ -1,17 +1,19 @@
 {
     "name": "henosteven/testcomposer",
-        "description": "just try to use composer for fun",
-        "type": "project",
-        "license": "MIT",
-        "authors": [
+    "description": "just try to use composer for fun",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
         {
             "name": "jinjing",
             "email": "liujinjing@didichuxing.com"
         }
         ],
-            "minimum-stability": "stable",
-            "require": {},
-            "autoload": {
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "1.2.*"
+    },
+    "autoload": {
                 "psr-4": {"Testcomposer\\Foo\\": "src/"}
             }
 }
