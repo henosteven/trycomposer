@@ -42,12 +42,18 @@ class ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc
         ),
     );
 
+    public static $classMap = array (
+        'HenoHelper' => __DIR__ . '/../..' . '/helper/HenoHelper.php',
+        'service_pay' => __DIR__ . '/../..' . '/helper/pay.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc::$classMap;
 
         }, null, ClassLoader::class);
     }

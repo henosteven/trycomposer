@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'HenoHelper' => $baseDir . '/helper/HenoHelper.php',
+    'service_pay' => $baseDir . '/helper/pay.php',
 );

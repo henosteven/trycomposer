@@ -10,3 +10,9 @@ $test1->justTry();
 
 $test2 = new HenoLib();
 $test2->test();
+
+$test3 = new HenoHelper();
+$test3->test();
+
+$test4 = new service_pay();
+$test4->test();

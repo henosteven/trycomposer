@@ -15,6 +15,7 @@
     },
     "autoload": {
         "files": ["lib/HenoLib.php"],
+        "classmap": ["helper"],
         "psr-4": {
             "Testcomposer\\Foo\\": "src/",
             "Haha\\TryTest\\": "src/"
