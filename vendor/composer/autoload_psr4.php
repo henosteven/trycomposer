@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Testcomposer\\Foo\\' => array($baseDir . '/src'),
+    'Haha\\TryTest\\' => array($baseDir . '/src'),
 );

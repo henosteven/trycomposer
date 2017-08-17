@@ -6,15 +6,27 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8e33cf69fb2c9f67f12c8b6dfbee39dc
 {
+    public static $files = array (
+        '6a67cd61cb42d7bba9ff01e0a8838cd5' => __DIR__ . '/../..' . '/lib/HenoLib.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
             'Testcomposer\\Foo\\' => 17,
         ),
+        'H' => 
+        array (
+            'Haha\\TryTest\\' => 13,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Testcomposer\\Foo\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Haha\\TryTest\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

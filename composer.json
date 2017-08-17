@@ -14,10 +14,11 @@
         "monolog/monolog": "1.2.*"
     },
     "autoload": {
-                "psr-4": {
-                    "Testcomposer\\Foo\\": "src/",
-                    "Haha\\TryTest\\": "src/"
-                    }
+        "files": ["lib/HenoLib.php"],
+        "psr-4": {
+            "Testcomposer\\Foo\\": "src/",
+            "Haha\\TryTest\\": "src/"
+        }
     }
 }
 
